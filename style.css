@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/\ {
+    padding: 0;
+    margin: -200;
+    box-shadow: #211C24;
+    inset-inline-start: 3px;
+    mask-position: calc(${a}+${b}=${a+b});
+}
+
+
+.header2 {
+    background-color: #2E2E2E;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 97px;
+    height: 48px;
+}
+.header2_phones {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 14.14px;
+    padding-left: 166.14px;
+}
+.header2_computers {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 14.14px;
+}
+.header2_smartwatches {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 14.14px;
+}
+.header2_cameras {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 14.14px;
+}
+.header2_headphones {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 14.14px;
+}
+.header2_gaming {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 14.14px;
+}
+.header2 > p {
+    font: 500;
+}
+
+.search_box {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 342px;
+    padding-left: 16px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+.search_box > p {
+    padding-left: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #656565;
+    text-align: center;
+    align-items: center;
+}
+.search_box > span {
+    text-align: center;
+    align-items: center;
+}
+.header {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+.logo {
+    padding-left: 160px;
+    padding-right: 48px;
+}
+.header_contents {
+    gap: 52px;
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #656565;
+    transition: all .9s;
+}
+p:hover {
+    cursor: pointer;
+    color: black;
+    transition: all .9s;
+}
+span.like {
+    padding-right: 24px;
+}
+span.cart {
+    padding-right: 24px;
+}
+span.account {
+    padding-right: 160px;
+}
+.iPhone14 {
+    background-color: #211C24;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.iPhone14_text {
+    padding-left: 160px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 24px;
+}
+.iPhone14_text > p1 {
+    color: #909090;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+}
+.iPhone14_text > h1 {
+    color: white;
+    font-weight: 200;
+    font-size: 96px;
+    line-height: 72px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.iPhone14_text > p2 {
+    color: #909090;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+}
+.button1 {
+    border: 1px solid white;
+    width: 184px;
+    height: 56px;
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s;
+}
+.button1 > p {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    transition: all 0.5s;
+}
+.button1:hover {
+    background-color: white;
+    transition: all 0.5s;
+}
+.button1 > p:hover {
+    color: #211C24;
+}
+.Phones {
+    background-color: #EDEDED;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 128px;
+    align-items: center;
+    text-align: center;
+    padding-left: 22px;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.Phones:hover {
+    cursor: pointer;
+    background-color: #909090;
+    transition: all 0.5s;
+}
+.Smart_Watches {
+    background-color: #EDEDED;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 128px;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.Smart_Watches:hover {
+    cursor: pointer;
+    background-color: #909090;
+    transition: all 0.5s;
+}
+.Cameras {
+    background-color: #EDEDED;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 128px;
+    align-items: center;
+    text-align: center;
+    padding-left: 22px;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.Cameras:hover {
+    cursor: pointer;
+    background-color: #909090;
+    transition: all 0.5s;
+}
+.Headphones {
+    background-color: #EDEDED;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 128px;
+    align-items: center;
+    text-align: center;
+    padding-left: 5px;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.Headphones:hover {
+    cursor: pointer;
+    background-color: #909090;
+    transition: all 0.5s;
+}
+.Computers {
+    background-color: #EDEDED;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 128px;
+    align-items: center;
+    text-align: center;
+    padding-left: 12px;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.Computers:hover {
+    cursor: pointer;
+    background-color: #909090;
+    transition: all 0.5s;
+}
+.Gaming {
+    background-color: #EDEDED;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 128px;
+    align-items: center;
+    text-align: center;
+    padding-left: 25px;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.Gaming:hover {
+    cursor: pointer;
+    background-color: #909090;
+    transition: all 0.5s;
+}
+.browse_category {
+    background-color: #FAFAFA;
+    padding-bottom: 80px;
+}
+.browse_category_text {
+    padding-top: 80px;
+    padding-left: 160px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.browse_category_items {
+    display: flex;
+    gap: 32px;
+    padding-left: 160px;
+    padding-top: 32px;
+}
+
+.shop {
+    padding-left: 160px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.shop_toptext {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+.shop_toptext > h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.shop_toptext > h3:nth-of-type(2) {
+    color: #8b8b8b;
+    transition: all 0.5s;
+}
+.shop_toptext > h3:nth-of-type(2):hover {
+    color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.shop_toptext > h3:nth-of-type(3) {
+    color: #8b8b8b;
+    transition: all 0.5s;
+}
+.shop_toptext > h3:nth-of-type(3):hover {
+    color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.shop_items_row1 {
+    display: flex;
+    gap: 16px;
+}
+.shop_items_row2 {
+    display: flex;
+    gap: 16px;
+    padding-top: 16px;
+}
+.item {
+    width: 268px;
+    height: 432px;
+    background-color: #F6F6F6;
+    border-radius: 9px;
+    padding-top: 72px;
+}
+.item_image {
+    padding-left: 54px;
+}
+.item_text {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 16px;
+}
+.item_price {
+    padding-top: 16px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+.buy_now_button {
+    align-items: center;
+    text-align: center;
+    padding-left: 42.5px;
+}
+.button2 {
+    padding-top: 12px;
+    background-color: black;
+    width: 183px;
+    height: 48px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.5s;
+}
+.button2:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.shop_items_row2 > .item:nth-of-type(3) > .item_price{
+    padding-top: 38px;
+}
+.shop_items_row1 > .item:nth-of-type(4) > .item_price {
+    padding-top: 38px;
+}
+.four_categories {
+    display: flex;
+}
+.category:first-of-type {
+    width: 400px;
+    background-color: #ffffff;
+}
+.category:nth-of-type(2) {
+    width: 400px;
+    background-color: #F9F9F9;
+}
+.category:nth-of-type(3) {
+    width: 400px;
+    background-color: #EAEAEA;
+}
+.category:nth-of-type(4) {
+    width: 400px;
+    background-color: #2C2C2C;
+}
+.category_image {
+    padding-left: 70px;
+}
+.category:nth-of-type(1) > .category_name {
+    padding-top: 40px;
+}
+
+.category_name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 33px;
+    padding-left: 32px;
+    color: black;
+    padding-bottom: 16px;
+}
+.category:nth-of-type(4) > .category_name {
+    color: white;
+}
+.category_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #909090;
+    padding-left: 32px;
+}
+
+
+
+.ShopNow_button {
+    padding-bottom: 20px;
+    padding-left: 32px;
+    align-items: center;
+    text-align: center;
+}
+.category:nth-of-type(1) > .ShopNow_button {
+    padding-top: 70px;
+}
+.category:nth-of-type(2) > .category_name {
+    padding-top: 10px;
+}
+.category:nth-of-type(2) > .ShopNow_button {
+    padding-top: 88px;
+}
+.category:nth-of-type(3) > .ShopNow_button {
+    padding-top: 80px;
+}
+.category:nth-of-type(4) > .category_image {
+    padding-left: 54px;
+}
+.category:nth-of-type(4) > .ShopNow_button {
+    padding-top: 78px;
+}
+
+
+.category:nth-of-type(4) > .ShopNow_button > .button3 {
+    width: 184px;
+    height: 56px;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.category:nth-of-type(4) > .ShopNow_button > .button3:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.button3 {
+    width: 184px;
+    height: 56px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.button3:hover {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+.discount {
+    padding-top: 64px;
+    padding-left: 160px;
+    padding-left: 160px;
+    padding-bottom: 80px;
+}
+.dicount_toptext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+.discount_items {
+    display: flex;
+    gap: 16px;
+}
+.disc_item {
+    width: 268px;
+    height: 432px;
+    background-color: #F6F6F6;
+    border-radius: 9px;
+    padding-top: 72px;
+}
+.disc_item_image {
+    padding-left: 54px;
+}
+.disc_item_text {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 16px;
+}
+.disc_tem_price {
+    padding-top: 16px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+.disc_item:nth-of-type(2) > .buy_now_button {
+    padding-top: 21px;
+}
+
+.Big_sale {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #2E2E2E;
+    height: 570px;
+}
+.right_image {
+    padding-left: 100px;
+}
+.center_text {
+    padding-left: 100px;
+}
+h {
+    font-size: 72px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 200;
+}
+p6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #787878;
+    font-weight: 400;
+    font-size: 16px;
+}
+::-ms-value {
+    color; black;
+    background-color: #211C24;
+    overscroll-behavior-block: auto;
+    font-language-override: calc(#EAEAEA);
+}
+::after: {
+    colgroup yellow
+}
+::after {
+    color: #211C24;
+    background-color: #787878;
+    syntax: ${gap: 45px;};
+    margin-inline-end::backdrop ;
+}
+justify {
+    gap: 6px;
+    height: 44px;
+    width: 123px;
+    display: flex;
+    letter-spacing: 70px;
+}
+background-color {
+    djdj
+.button7 {
+    padding-top: 40px;
+    padding-left: 170px;
+}
+.button8 {
+    border: 1px solid white;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 184px;
+    height: 56px;
+    border-radius: 6px;
+    padding-top: 15px;
+    transition: all 0.6s;
+}
+
+
+
+
+transform: {
+    border-left: auto;
+    border-top: 40px;
+};
+
+914476556
+
+
+
+
+
+
+.h40 {
+    border-spacing: 45px;
+}
+-ms-hyphenate-limit-lines: no-limit;
+break-inside: avoid;
+break-after: avoid-column;
+break-before: avoid-page;
+height: 123px;
+width: 23px;
+border-block-end-style: calc(1+1=3);
+
+.h2 {
+    color: #656565;
+    background-color: #EAEAEA;
+    border-radius: 8px;
+    border: 500px solid rgb(255, 0, 0);
+    border-bottom: #211C24;
+    bottom: auto;
+    padding-right: 5px;
+    clear: calc(5+2);
+    padding-inline: var(#211C24);
+}
+
+::view-transition-new{
+    color: #211C24;
+    background-color: #211C24;
+    text-shadow: 911px;
+    font-variant: normal;
+    -webkit-column-break-after: unset;
+    mask: clear;
+    clear: inline;
+    column-gap: 5px;
+    view-timeline-axis: 7px;
+    clear: none;
+    -ms-text-kashida-space: unser;
+}
+
+ 
+::-ms-clear {
+    transform: scaleX(56px);
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    pad: -moz-element(3);
+}
+
+tranformation {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    clip: auto;
+    cursor: text;
+    cursor: pointer;
+    cursor: ew-resize;
+    font-variant-numeric: lining-nums;
+    visibility: hidden;
+    cursor: all-scroll;
+}
+
+polygon {
+    color: #211C24;
+    background-color: #8b8b8b;
+}
+
+.button8:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    height: 464px;
+}
+.footer > img {
+    padding-top: 230px;
+    padding-left: 720px;
+}
+.span {w
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+    padding-left: 650px;
+}
+.span > span:hover {
+    cursor: pointer;
+}
